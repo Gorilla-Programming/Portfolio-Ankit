@@ -3,6 +3,13 @@ const body = document.body
 const btnTheme = document.querySelector('.fa-moon')
 const btnHamburger = document.querySelector('.fa-bars')
 
+window.addEventListener('load', function() {
+	if (!sessionStorage.getItem('hasReloaded')) {
+		sessionStorage.setItem('hasReloaded', 'true');
+		window.location.reload();
+	}
+});
+
 const addThemeClass = (bodyClass, btnClass) => {
   body.classList.add(bodyClass)
   btnTheme.classList.add(btnClass)

@@ -109,7 +109,7 @@ button {
 }
 
 .badge{
-  margin: 100px;
+  margin: 5%;
 }
 .link:hover {
   color: var(--clr-primary);

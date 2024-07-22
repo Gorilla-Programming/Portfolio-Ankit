@@ -108,9 +108,7 @@ button {
   position: relative;
 }
 
-.badge{
-  margin: 5%;
-}
+
 .link:hover {
   color: var(--clr-primary);
 }
@@ -479,6 +477,10 @@ main {
       flex-direction: column;
       align-items: flex-start;
   }
+
+  .badge{
+  margin: 5%;
+}
 
   .testimonial-wrapper {
       display: block;
